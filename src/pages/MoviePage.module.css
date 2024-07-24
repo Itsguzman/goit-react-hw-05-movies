@@ -1,0 +1,56 @@
+.inputWrapper {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.movieDetailsPageDiv {
+  margin-top: 20px;
+  width: 70%;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 12px;
+
+  div {
+    text-align: left;
+    width: 50%;
+  }
+}
+
+.movieDetailsPageDivAdd {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  button:hover {
+    background-color: rgb(1, 54, 1); /* Darker blue */
+    transform: translateY(-2px); /* Slight lift */
+  }
+}

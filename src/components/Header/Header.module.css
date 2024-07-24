@@ -1,0 +1,21 @@
+.active,
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.active {
+  color: green;
+  list-style: none;
+}
+
+.headerNav {
+  background-color: rgb(198, 202, 202);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 30px;
+  gap: 30px;
+  font-weight: bolder;
+}

@@ -1,0 +1,29 @@
+.movieUl {
+  list-style: none;
+  display: grid;
+  max-width: calc(100vw - 48px);
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10% 30px;
+  text-decoration: none;
+
+  li {
+    text-align: center;
+    justify-content: center;
+    width: 90%;
+    text-decoration: none;
+    margin-top: 10px;
+
+    h4 {
+      text-decoration: none;
+      margin-top: 0px;
+      color: black;
+    }
+  }
+}
