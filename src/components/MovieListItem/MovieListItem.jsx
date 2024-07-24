@@ -5,9 +5,8 @@ import { useLocation } from 'react-router-dom';
 export const MovieListItem = ({ id, title, moviepath }) => {
   const location = useLocation();
 
-  // Check if the movie has an image, if not, do not render the component
   if (!moviepath) {
-    return null; // Skip rendering if no image path is provided
+    return null;
   }
 
   return (
@@ -34,5 +33,5 @@ export const MovieListItem = ({ id, title, moviepath }) => {
 MovieListItem.propTypes = {
   id: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
-  moviepath: PropTypes.string, // Include PropType for moviepath
+  moviepath: PropTypes.string,
 };
